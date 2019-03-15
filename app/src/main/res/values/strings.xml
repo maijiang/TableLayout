@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TableLayout</string>
+    <string name="quit">     Quit...</string>
+    <string name="ctrl_shift_s">Ctrl-Shift-S</string>
+    <string name="x_expot">X Expot...</string>
+    <string name="x_import">X Import...</string>
+    <string name="ctrl_shift_s">Ctrl-Shift-S</string>
+    <string name="save_as">Save As...</string>
+    <string name="ctrl_s">Ctrl-S</string>
+    <string name="save">Save...</string>
+    <string name="open">Open...</string>
+    <string name="ctrl_o">Ctrl-O</string>
+</resources>
