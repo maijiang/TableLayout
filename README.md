@@ -170,6 +170,4 @@ text.xml
 </selector>
 
 
-----------------------------------------------------------------
-运行结果
-![image]https://github.com/maijiang/TableLayout/blob/master/TableLayout.PNG
+
