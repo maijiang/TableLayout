@@ -165,8 +165,6 @@ text.xml
 
 运行结果：
 --
-
-
-
+![Image text]https://github.com/maijiang/TableLayout/blob/master/TableLayout.PNG
 
 
