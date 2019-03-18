@@ -1,13 +1,10 @@
 # TableLayout
-1.线性布局：
-
-
-代码：
-----------------------------------------------------------------
-tablelayout.cml
-
-<?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+线性布局：
+==
+tablelayout.xml
+--
+    <?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:stretchColumns="2"
@@ -116,22 +113,20 @@ tablelayout.cml
         android:gravity="center"
         android:textColor="@drawable/text"/>
     </TableRow>
-</TableLayout>
-
-
+    </TableRow>
+    
 colors.xml
-
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+--
+    <?xml version="1.0" encoding="utf-8"?>
+    <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-</resources>
-
-
+    </resources>
+    
 strings.xml
-
-<resources>
+--
+    <resources>
     <string name="app_name">TableLayout</string>
     <string name="quit">     Quit...</string>
     <string name="ctrl_shift_s">Ctrl-Shift-S</string>
@@ -143,12 +138,11 @@ strings.xml
     <string name="save">Save...</string>
     <string name="open">Open...</string>
     <string name="ctrl_o">Ctrl-O</string>
-</resources>
-
-
+    </resources>
+    
 styles.xml
-
-<resources>
+--
+    <resources>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -158,16 +152,21 @@ styles.xml
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-</resources>
-
-
+    </resources>
+    
 text.xml
-
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+--
+    <?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- 字体颜色 -->
     <item android:color="#c2b9b9"/>
-</selector>
+    </selector>
+
+
+运行结果：
+--
+
+
 
 
 
